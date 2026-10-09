@@ -1238,6 +1238,35 @@ body.light-mode .project-tags span {
         gap: 30px;
     }
 
+
+    
+/* Mobile Hero and Navbar Fix */
+@media (max-width: 768px) {
+    nav {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .hero {
+        padding-top: 30px;
+    }
+
+    .hero h1,
+    .hero h2,
+    .hero p {
+        position: relative;
+        z-index: 1;
+    }
+
+    #theme-toggle {
+        position: relative;
+        display: block;
+        margin: 15px auto;
+        max-width: 100%;
+    }
+}
+
+
     .hero h1 {
         font-size: 32px;
     }
